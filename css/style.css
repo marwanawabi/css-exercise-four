@@ -4,10 +4,8 @@ box-sizing: border-box;
 }
 
 body {
-  background-color: #white;
-  /*display: block;*/
-  margin: 0 auto
-  width = 100%;
+  background-color: #dadada;
+  display: block;
 }
 
 
@@ -17,63 +15,62 @@ body {
   font-size: 12px;
   text-transform: uppercase;
   text-align: center;
-  padding: 20px 0px 20px 0px
+  padding: 20px;
 }
 
 .container{
   margin: 0 auto;
-  width: 100%;
   position: relative;
-  background-color: #dadada;
+  width: 100%;
 }
 
-.preview{
-  margin: 0px 0px 5px 0px;
-  object-fit:scale-down;
-  display: inline-block;
+.preview {
+  margin: 0 0 5% 0;
+  padding: 3% 0 20% 3%;
+  width: 100%;
   font-size: 18px;
+  float: left;
 }
 
 .baku{
-background: url(images/baku.jpg);
-background-size: auto;
-width:100%;
+background: url("../images/baku.jpg") no-repeat;
+background-size: cover;
 }
 
 .london{
-  background: url(images/london.png);
-  background-size: auto;
-  width:100%;
+  background: url("../images/london.png") no-repeat;
+  background-size: cover;
 }
 
 .madrid{
-  background: url(images/madrid.jpg);
-  background-size: auto;
-  width:100%;
+  background: url("../images/madrid.jpg") no-repeat;
+  background-size: cover;
 }
 
 
 .rome{
-  background: url(images/rome.jpg);
-  background-size: auto;
-  width: 100%;
+  background: url("../images/rome.jpg") no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 575px) {
   .preview{
-    margin: 1%;
     width: 48%;
+    margin: 1%;
   }
 }
 
 @media (min-width: 991px) {
   .preview{
-
+    width: 23%;
+    margin: 1%;
   }
 }
 
 @media (min-width: 1199px) {
   .preview{
-    
+    width: 23%;
+    margin: 1%;
+    padding: 1% 0 0% 1%;
   }
 }
